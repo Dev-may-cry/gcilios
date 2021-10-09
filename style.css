@@ -1,0 +1,56 @@
+* {
+  background: #EFEFEF;
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+#header {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  border-bottom: 2px solid #E4E4E4;
+}
+
+.social {
+  display: flex;
+  /* Esse serve pra dispor os elementos um ao lado do outro */
+   justify-content: flex-end;
+  /* E esse, para separá-los em cada extremidade */
+  height: 3.5rem;
+  /* Aqui, eu optei por 4,5 (*16 pixels) de altura */
+  align-items: center;
+  width: 100%;
+  margin-left: -0.5rem;
+}
+
+.icon-instagram {
+  color: #D52C8A;
+}
+
+.icon-whatsapp {
+  color: #3BE159;
+}
+
+.icon-phone {
+  color: #0BCD74;
+}
+
+#main {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  /* Esse deve deixar do tamanho certinho da tela */
+  height: auto;
+}
+
+svg {
+  font-size: 1.6rem;
+}
