@@ -1,9 +1,22 @@
 * {
-  background: #EFEFEF;
+  /* Sugestão de cor: whitesmoke (antigo: #EFEFEF) */
+  background: #FFF1FE;
   margin: 0;
   padding: 0;
   
   box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+
+  scroll-behavior: smooth;
+}
+
+:root {
+  --hue: 412;
+}
+
+a {
+  text-decoration: none;
 }
 
 .grid {
@@ -14,17 +27,20 @@
 #header {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  border-bottom: 2px solid #E4E4E4;
+  padding: 0.8rem;
+  border-bottom: 1px solid #ecdfdf;
+  margin-bottom: 5rem;
 }
 
 .social {
   display: flex;
   /* Esse serve pra dispor os elementos um ao lado do outro */
-   justify-content: flex-end;
+  justify-content: flex-end;
   /* E esse, para separá-los em cada extremidade */
   height: 3.5rem;
   /* Aqui, eu optei por 4,5 (*16 pixels) de altura */
   align-items: center;
+  gap: 2rem;
   width: 100%;
   margin-left: -0.5rem;
 }
@@ -49,28 +65,60 @@ img {
   width: 100%;
   /* Esse deve deixar do tamanho certinho da tela */
   height: auto;
+  margin-bottom: 3rem;
 }
 
 svg {
   font-size: 1.6rem;
 }
 
-
-
-.md-calendar-booking .mbsc-calendar-text {
-    text-align: center;
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
-.md-calendar-booking .booking-datetime .mbsc-datepicker-tab-calendar {
-    flex: 1 1 0;
-    min-width: 300px;
+#agenda {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-.md-calendar-booking .mbsc-timegrid-item {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+#button {
+  display: flex;
 }
 
-.md-calendar-booking .mbsc-timegrid-container {
-    top: 30px;
+.button {
+  margin: auto;
+  display: inline-flex;
+  /* Esse display só funciona se houver flex na tag pai */
+  text-align: center;
+  justify-content: center;
+  background-color: hsla(345, 36%, 75%, 1);
+  color: black;
+  height: 3.5rem;
+  /* Esse display parece ser complexo como o position */
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem 'Roboto', sans-serif;
+  transition: background 0.5s;
+}
+
+.button:hover {
+  background: hsla(345, 36%, 57%, 1);
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1) 0%,
+    hsla(var(--hue), 65%, 88%, 0.34%) 100%
+  );
+  margin-top: 10rem;
 }
