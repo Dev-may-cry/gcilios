@@ -1,5 +1,4 @@
 * {
-  /* Sugestão de cor: whitesmoke (antigo: #EFEFEF) */
   background: #FFF1FE;
   margin: 0;
   padding: 0;
@@ -34,11 +33,8 @@ a {
 
 .social {
   display: flex;
-  /* Esse serve pra dispor os elementos um ao lado do outro */
   justify-content: flex-end;
-  /* E esse, para separá-los em cada extremidade */
   height: 3.5rem;
-  /* Aqui, eu optei por 4,5 (*16 pixels) de altura */
   align-items: center;
   gap: 2rem;
   width: 100%;
@@ -63,7 +59,6 @@ a {
 
 img {
   width: 100%;
-  /* Esse deve deixar do tamanho certinho da tela */
   height: auto;
   margin-bottom: 3rem;
 }
@@ -95,13 +90,11 @@ svg {
 .button {
   margin: auto;
   display: inline-flex;
-  /* Esse display só funciona se houver flex na tag pai */
   text-align: center;
   justify-content: center;
   background-color: hsla(345, 36%, 75%, 1);
   color: black;
   height: 3.5rem;
-  /* Esse display parece ser complexo como o position */
   align-items: center;
   padding: 0 2rem;
   border-radius: 0.25rem;
