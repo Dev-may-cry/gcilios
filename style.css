@@ -115,3 +115,14 @@ svg {
   );
   margin-top: 10rem;
 }
+
+@media (min-width: 1024px) {
+  #main {
+    margin: 0 auto;
+  }
+
+  #main img {
+    width: 50%;
+    margin-left: 21rem;
+  }
+}
