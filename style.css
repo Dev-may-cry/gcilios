@@ -125,4 +125,14 @@ svg {
     width: 50%;
     margin-left: 21rem;
   }
+  
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0;
+  }
+
+  .icon-phone {
+    display: none;
+  }
 } 
