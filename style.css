@@ -55,6 +55,8 @@ a {
 
 #main {
   width: 100%;
+  border-bottom: 1px solid #ecdfdf;
+  margin-bottom: 5rem;
 }
 
 img {
