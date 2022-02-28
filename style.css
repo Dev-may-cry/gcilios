@@ -94,7 +94,7 @@ svg {
   display: inline-flex;
   text-align: center;
   justify-content: center;
-  background-color: hsla(345, 36%, 75%, 1);
+  background-color: hsla(345, 36%, 57%, 1);
   color: white;
   height: 3.5rem;
   align-items: center;
@@ -105,7 +105,7 @@ svg {
 }
 
 .button:hover {
-  background: hsla(345, 36%, 57%, 1);
+  background: hsla(345, 36%, 37%, 1);
 }
 
 .divider-1 {
