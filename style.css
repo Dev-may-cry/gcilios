@@ -80,6 +80,7 @@ svg {
 
 #main p {
   text-align: center;
+  justify-content: center;
 }
 
 #agenda {
