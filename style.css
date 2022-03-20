@@ -78,6 +78,10 @@ svg {
   fill: currentColor;
 }
 
+#main p {
+  text-align: center;
+}
+
 #agenda {
   margin-top: 1rem;
   margin-bottom: 2rem;
