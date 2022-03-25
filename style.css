@@ -53,6 +53,10 @@ a {
   color: #0BCD74;
 }
 
+.title {
+  text-align: center;
+} 
+
 img {
   width: 100%;
   height: auto;
