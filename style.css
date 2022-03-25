@@ -122,7 +122,7 @@ svg {
     hsla(var(--hue), 36%, 57%, 1) 0%,
     hsla(var(--hue), 65%, 88%, 0.34%) 100%
   );
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 @media (min-width: 1024px) {
