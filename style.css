@@ -81,7 +81,7 @@ svg {
   text-align: center;
   justify-content: center;
   margin-bottom: 2rem;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 #agenda {
@@ -127,6 +127,7 @@ svg {
 
 }
 
+/*
 .card {
   padding: 3.625rem 2rem;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
@@ -134,11 +135,11 @@ svg {
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
 }
+*/
 
 .card img {
-  display: block;
-  margin-bottom: 1.5rem;
-  font-size: 5rem;
+  width: 25%;
+  margin-top: 3rem;
 }
 
 .card .title {
